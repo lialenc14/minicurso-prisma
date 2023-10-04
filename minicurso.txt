@@ -1,0 +1,22 @@
+04/10 - prisma ORM
+para node.js e typescript
+simplificar o acesso ao bd e manipulação
+recursos p/migração e segurança
+prisma client (consultas), migrate (tipo o git) e studio (interface visual)
+
+etapas:
+git clone https://github.com/Rebehk/minicruso-prisma-orm.git
+npm install
+npm install prisma -D
+npx prisma init --datasource-provider postgresql
+
+arquivo docker-compose.yml na raiz do projeto - cód na branch do github
+docker compose up -d (se der permissão negada rodar o debaixo)
+sudo docker compose up -d
+sudo docker ps
+ou usa o elefantesql se o docker der problema
+
+git remote add origin https://github.com/lialenc14/minicurso-prisma.git - pra enviar o projeto pro github
+
+//yarn
+//yarn add prisma
